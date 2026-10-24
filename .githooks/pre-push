@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Blocks `git push` if CI would fail. Skip in an emergency with: git push --no-verify
+exec ./ci.sh
